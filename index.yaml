@@ -1,0 +1,56 @@
+apiVersion: v1
+entries:
+  argo-cd:
+  - apiVersion: v1
+    appVersion: 1.6.0
+    created: "2020-06-17T10:32:26.2771557+02:00"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://kubernetes-charts.storage.googleapis.com
+      version: 4.4.2
+    description: A Helm chart for ArgoCD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 36f1e66ebebf6cf14e9b76f7d865f84d7390cdeb7bb6939991d0ca54a6bac075
+    home: https://github.com/argoproj/argo-helm
+    icon: https://raw.githubusercontent.com/argoproj/argo/master/docs/assets/argo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    maintainers:
+    - name: alexec
+    - name: alexmt
+    - name: jessesuen
+    - name: seanson
+    name: argo-cd
+    urls:
+    - argo-cd-2.4.0.tgz
+    version: 2.4.0
+  - apiVersion: v1
+    appVersion: 1.5.4
+    created: "2020-06-17T10:32:26.2722383+02:00"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://kubernetes-charts.storage.googleapis.com
+      version: 4.4.2
+    description: A Helm chart for ArgoCD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 19e0436b2cdb3a4864d01c440571b49794104e12e72259c621b55b74ba44971f
+    home: https://github.com/argoproj/argo-helm
+    icon: https://raw.githubusercontent.com/argoproj/argo/master/docs/assets/argo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    maintainers:
+    - name: alexec
+    - name: alexmt
+    - name: jessesuen
+    - name: seanson
+    name: argo-cd
+    urls:
+    - argo-cd-2.3.5.tgz
+    version: 2.3.5
+generated: "2020-06-17T10:32:26.2670871+02:00"
